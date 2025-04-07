@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d out --nojekyll -t true"
+    "deploy": "gh-pages -d out --nojekyll"
   },
   "dependencies": {
     "next": "15.2.4",
@@ -28,7 +28,4 @@
     "typescript": "^5"
   },
   "homepage": "https://JosephZurita.github.io/test_deploy"
-
 }
-
-
